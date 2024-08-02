@@ -92,11 +92,13 @@
     background-color: black;
     color: black;
     padding: 2em 5em 5em 5em;
+    display: flex;
     border-radius: 0 0 10px 10px;
 }
 
 .description p{
     line-height: 1.6;
+    color: white;
 }
 
 .skills{
@@ -133,14 +135,12 @@
     
 }
 
-.logos img:hover{
-    height:5.5em;
-    width: 5.5em;
-}
+
 
 .logos{
     display: flex;
-    gap:2em;
+    gap:2.5em;
+
 
 }
 
@@ -167,3 +167,56 @@
 }
 
 
+@media (max-width: 500px) {
+    .logos img{
+        height: 2em;
+        padding: 1.2em;
+        border: white solid;
+        border-radius: 25px;
+        width: 2em;
+      
+        
+    }
+
+    
+    .descriptionSkills{
+        font-size: 0.8em;
+        width: 100%;
+    }
+    
+ 
+  
+}
+
+@media (max-width: 767px) {
+    .logos img{
+        height: 2em;
+        padding: 1.2em;
+        border: white solid;
+        border-radius: 25px;
+        width: 2em;
+      
+        
+    }
+
+    .skillsButton button {
+        font-size: 0.7em;
+   
+    }
+    .descriptionSkills{
+        font-size: 0.8em;
+        width: 100%;
+    }
+    
+   
+  
+}
+
+
+@media (min-width: 767px) {
+    .logos img:hover{
+        height:5.5em;
+        width: 5.5em;
+    }
+  
+}

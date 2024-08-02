@@ -59,8 +59,9 @@ function Skills(){
                                 </button>
                             </div>
                             <div className = {styles.description}>
+                                <p>{skill}</p>
                                 <div className = {styles.descriptionSkills}>
-                                    <p>{skill}</p>
+                                    
                                 </div>
                                 <div className = {styles.logos}>
                                     {activeButton === 'Web Development' ? 
