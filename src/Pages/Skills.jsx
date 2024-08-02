@@ -65,16 +65,32 @@ function Skills(){
                                 <div className = {styles.logos}>
                                     {activeButton === 'Web Development' ? 
                                     <>
-                                        <img src = {HTML_logo} onMouseEnter={() => setSkill("HTML 5")} onMouseLeave = {handleMouseLeave}/>
+                                    <div className = {styles.wdevelopment}>
+                                        <div className = {styles.fR}>
+                                            <img src = {HTML_logo} onMouseEnter={() => setSkill("HTML 5")} onMouseLeave = {handleMouseLeave}/>
+                                            <img src = {CSS_logo} onMouseEnter={() => setSkill("CSS")} onMouseLeave = {handleMouseLeave}/>
+                                        </div>
+                                        <div className = {styles.sR}>
+                                            <img src = {Javascript_logo} onMouseEnter={() => setSkill("JavaScript")} onMouseLeave = {handleMouseLeave}/>
+                                            <img src = {React_logo} onMouseEnter={() => setSkill("React")} onMouseLeave = {handleMouseLeave}/>
+                                        </div>
+                                    </div>
+                                        {/* <img src = {HTML_logo} onMouseEnter={() => setSkill("HTML 5")} onMouseLeave = {handleMouseLeave}/>
                                         <img src = {CSS_logo} onMouseEnter={() => setSkill("CSS")} onMouseLeave = {handleMouseLeave}/>
                                         <img src = {Javascript_logo} onMouseEnter={() => setSkill("JavaScript")} onMouseLeave = {handleMouseLeave}/>
-                                        <img src = {React_logo} onMouseEnter={() => setSkill("React")} onMouseLeave = {handleMouseLeave}/>
+                                        <img src = {React_logo} onMouseEnter={() => setSkill("React")} onMouseLeave = {handleMouseLeave}/> */}
                                     </>: 
                                     <>
-                                        <img src = {Python_logo} onMouseEnter={() => setSkill("Python")} onMouseLeave = {handleMouseLeave}/>
-                                        <img src = {R_logo} onMouseEnter={() => setSkill("R")} onMouseLeave = {handleMouseLeave}/>
-                                        <img src = {Pandas_logo} onMouseEnter={() => setSkill("Pandas")} onMouseLeave = {handleMouseLeave}/>
-                                        <img src = {Numpy_logo} onMouseEnter={() => setSkill("Numpy")} onMouseLeave = {handleMouseLeave}/>
+                                    <div className = {styles.wdevelopment}>
+                                        <div className = {styles.fR}>
+                                            <img src = {Python_logo} onMouseEnter={() => setSkill("Python")} onMouseLeave = {handleMouseLeave}/>
+                                            <img src = {R_logo} onMouseEnter={() => setSkill("R")} onMouseLeave = {handleMouseLeave}/>
+                                        </div>
+                                        <div className = {styles.sR}>
+                                            <img src = {Pandas_logo} onMouseEnter={() => setSkill("Pandas")} onMouseLeave = {handleMouseLeave}/>
+                                            <img src = {Numpy_logo} onMouseEnter={() => setSkill("Numpy")} onMouseLeave = {handleMouseLeave}/>
+                                        </div>
+                                    </div>
                                     </>}
                                 
                                 </div>

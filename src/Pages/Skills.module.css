@@ -8,6 +8,16 @@
     flex-direction: column;
     background-color: black;
     align-items: center;
+    overflow-x: hidden; /* Hide horizontal overflow */
+    overflow-y: hidden; /* Hide vertical overflow */
+ 
+    
+}
+
+.wdevelopment{
+    display: flex;
+    gap: 1em;
+    
 }
 
 .skillsSection{
@@ -17,6 +27,12 @@
     align-items: center;
     flex:1;
     padding: 3em;
+    height: auto;
+}
+
+.fR .sR{
+    display: flex;
+    
 }
 
 
@@ -30,6 +46,7 @@
     color: white;
     flex-direction: column;
     height:70vh;
+    overflow-y: auto;
 }
 
 .title{
@@ -84,6 +101,7 @@
 
 .skills{
     width: 50%;
+    overflow-y: hidden;
 }
 
 @media (max-width: 1200px) {
@@ -102,6 +120,8 @@
     }
   
 }
+
+
 
 .logos img{
     height: 4em;
