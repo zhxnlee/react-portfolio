@@ -66,7 +66,7 @@ function Skills(){
                                 <div className = {styles.logos}>
                                     {activeButton === 'Web Development' ? 
                                     <>
-                                    <div className = {styles.wdevelopment}>
+                                    <div className = {styles.wDevelopment}>
                                         <div className = {styles.fR}>
                                             <img src = {HTML_logo} onMouseEnter={() => setSkill("HTML 5")} onMouseLeave = {handleMouseLeave}/>
                                             <img src = {CSS_logo} onMouseEnter={() => setSkill("CSS")} onMouseLeave = {handleMouseLeave}/>
@@ -82,7 +82,7 @@ function Skills(){
                                         <img src = {React_logo} onMouseEnter={() => setSkill("React")} onMouseLeave = {handleMouseLeave}/> */}
                                     </>: 
                                     <>
-                                    <div className = {styles.wdevelopment}>
+                                    <div className = {styles.wDevelopment}>
                                         <div className = {styles.fR}>
                                             <img src = {Python_logo} onMouseEnter={() => setSkill("Python")} onMouseLeave = {handleMouseLeave}/>
                                             <img src = {R_logo} onMouseEnter={() => setSkill("R")} onMouseLeave = {handleMouseLeave}/>

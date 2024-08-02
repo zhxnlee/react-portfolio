@@ -14,9 +14,11 @@
     
 }
 
-.wdevelopment{
+.wDevelopment{
     display: flex;
     gap: 1em;
+    align-items: center;
+    justify-content: center;
     
 }
 
@@ -30,10 +32,7 @@
     height: auto;
 }
 
-.fR .sR{
-    display: flex;
-    
-}
+
 
 
 
@@ -47,6 +46,8 @@
     flex-direction: column;
     height:70vh;
     overflow-y: auto;
+    width: 100%;
+  
 }
 
 .title{
@@ -62,13 +63,15 @@
     border-radius: 10px;
     background-color: black;
     border:none;
-    flex:1;
+    flex:none;
     color: white;
+
 }
 
 .skillsButton{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -91,9 +94,11 @@
 .description{
     background-color: black;
     color: black;
-    padding: 2em 5em 5em 5em;
+    padding: 5em 5em 5em 5em;
     display: flex;
     border-radius: 0 0 10px 10px;
+    align-items: center;
+    justify-content: center;
 }
 
 .description p{
@@ -102,7 +107,7 @@
 }
 
 .skills{
-    width: 50%;
+    width: 100%;
     overflow-y: hidden;
 }
 
@@ -111,8 +116,12 @@
         /* margin-top: 5em; */
         flex-direction: column;
         padding-bottom: 5em;
+        align-items: center;
+        justify-content: center;
    
     }
+
+    
 
     .skills{
         margin-top: 3em;
@@ -140,6 +149,8 @@
 .logos{
     display: flex;
     gap:2.5em;
+    align-items: center;
+    justify-content: center;
 
 
 }
@@ -179,10 +190,7 @@
     }
 
     
-    .descriptionSkills{
-        font-size: 0.8em;
-        width: 100%;
-    }
+    
     
  
   
@@ -208,10 +216,7 @@
         font-size: 0.7em;
    
     }
-    .descriptionSkills{
-        font-size: 0.8em;
-        width: 100%;
-    }
+  
     
    
   
@@ -226,16 +231,19 @@
   
 }
 
-@media (max-width: 600px) {
-   
-
-  
-
-    .skillsButton button {
-        font-size: 0.55em;
-   
+@media (max-width: 590px) {
+    .fR {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:1em;
     }
 
-   
-  
+    .sR{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:1em;
+    }
 }
+
