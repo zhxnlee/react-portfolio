@@ -144,9 +144,8 @@
 
 @media (max-width: 500px) {
     
-
     .aboutme{
-        height:200vh;
+        height:280vh;
         overflow-y: hidden;
     }
 
