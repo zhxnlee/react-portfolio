@@ -13,12 +13,11 @@ import Contact from './Pages/Contact'
 function App() {
 
   const router = createBrowserRouter([
-    {path: "/", element: <Root/>, children:[
-      {path: "/", element: <Home/>},
-      {path: "/", element: <Skills/>},
-      {path: "/", element: <AboutMe/>},
-      
-      {path: "/", element: <Contact/>}
+    {path: "/react-portfolio", element: <Root/>, children:[
+      {path: "/react-portfolio", element: <Home/>},
+      {path: "/react-portfolio", element: <Skills/>},
+      {path: "/react-portfolio", element: <AboutMe/>},
+      {path: "/react-portfolio", element: <Contact/>}
 
 
     ]}
