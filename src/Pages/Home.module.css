@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.projects{
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white
+}
+
+.projects .title{
+    padding-top: 8em;
+}
+
+
+  
+
+  
+
+
+

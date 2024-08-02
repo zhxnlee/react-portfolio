@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.aboutSection{
+    background-color: white;
+}
+.aboutme{
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    color: black;
+    padding-bottom: 8em;
+    margin-bottom: 5em;
+    
+}
+
+.aboutme .title{
+    padding-top: 8em;
+}
+
+.title{
+    margin-bottom: 8em;
+}
+
+.aboutmeContent{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    padding-bottom: 5em;
+    flex-direction: row-reverse;
+
+}
+
+.aboutSection, .imageSection{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.aboutsButton button{
+    padding: 0.8rem;
+    border-radius: 10px 10px 0 0;
+    background-color: white;
+    border:none;
+    flex:1;
+    color: black;
+}
+
+.aboutsButton{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.aboutsButton button:hover
+{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+
+}
+
+.aboutsButton .active {
+    background-color: black;
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-thickness: 1.5px;
+    font-weight: bold;
+    
+  }
+
+.description{
+    background-color: black;
+    color: white;
+    padding: 5em;
+    border-radius: 0 0 10px 10px;
+    
+}
+
+.description p{
+    line-height: 1.6;
+}
+
+.abouts{
+    width: 70%;
+}
+
+@media (max-width: 1200px) {
+    .aboutmeContent{
+        /* margin-top: 5em; */
+        flex-direction: column;
+        padding-bottom: 5em;
+   
+    }
+
+    .abouts{
+        margin-top: 5em;
+    }
+
+    .aboutme{
+        height:200vh;
+    }
+
+    
+
+    
+  
+}
+
+@media (max-width: 600px) {
+    .aboutmeContent{
+        /* margin-top: 5em; */
+        flex-direction: column;
+        padding-bottom: 5em;
+   
+    }
+
+    .abouts{
+        margin-top: 5em;
+    }
+
+    .aboutme{
+        height:230vh;
+    }
+
+    
+
+    
+  
+}
+
+.imageSection .imageBackground{
+    background-color: rgba(148, 147, 147, 0.3);
+    border-radius: 50%;
+    padding: 4em;
+    
+  
+}
+
+.description img{
+    width: 100%;
+    border-radius: 50px;
+    margin-bottom: 2.2em;
+    
+   
+}
+
+
+
+

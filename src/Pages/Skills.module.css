@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.skillsMain{
+    display:flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
+}
+
+.skillsSection{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+    padding: 3em;
+}
+
+
+
+.skillsContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 4em;
+    color: white;
+    flex-direction: column;
+    height:70vh;
+}
+
+.title{
+    margin: 1.2em;
+    padding: 1em;
+    color: white;
+    
+    padding-top:8em
+}
+
+.skillsButton button{
+    padding: 0.8rem;
+    border-radius: 10px;
+    background-color: black;
+    border:none;
+    flex:1;
+    color: white;
+}
+
+.skillsButton{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.skillsButton button:hover
+{
+    background-color: white;
+    color: black;
+
+
+}
+
+.skillsButton .active {
+    background-color: white;
+    color: black;
+
+    font-weight: bold;
+    
+  }
+
+.description{
+    background-color: black;
+    color: black;
+    padding: 2em 5em 5em 5em;
+    border-radius: 0 0 10px 10px;
+}
+
+.description p{
+    line-height: 1.6;
+}
+
+.skills{
+    width: 50%;
+}
+
+@media (max-width: 1200px) {
+    .skillsSection{
+        /* margin-top: 5em; */
+        flex-direction: column;
+        padding-bottom: 5em;
+   
+    }
+
+    .skills{
+        margin-top: 3em;
+    }
+    .title{
+        padding-bottom: 4em;
+    }
+  
+}
+
+.logos img{
+    height: 4em;
+    padding: 1.2em;
+    border: white solid;
+    border-radius: 25px;
+    width: 4em;
+  
+    
+}
+
+.logos img:hover{
+    height:5.5em;
+    width: 5.5em;
+}
+
+.logos{
+    display: flex;
+    gap:2em;
+
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.descriptionSkills{
+    padding-bottom: 3.2em;
+    color: white;
+}
+
+
+.imageSection .imageBackground{
+    background-color: rgba(148, 147, 147, 0.3);
+    border-radius: 50%;
+    padding: 4em;
+    
+  
+}
+
+

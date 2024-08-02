@@ -1,0 +1,177 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: Montserrat;
+}
+
+
+
+
+.navbar{
+
+    display: flex;
+    /* justify-content:  */
+    padding: 1em 10em;
+    align-items: center;
+    margin: auto;
+    
+    background-color: white;
+    width: 100%;
+    gap:5em
+
+
+    
+    
+}
+
+.ulist{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    
+}
+
+.ulist a{
+    padding: 1.2em;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+
+}
+
+.ulist a:hover{
+  font-weight: bold;
+  background-color: black;
+  border-radius: 15px;
+  color: white;
+  box-shadow: 0 2px 3px black; /* Add shadow effect */
+
+}
+
+.menuIcon svg{
+    padding: 0.2em;
+}
+
+.menuIcon svg:hover{
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+
+}
+
+.closeIcon svg{
+    padding: 0.2em;
+}
+
+.closeIcon svg:hover{
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+
+}
+
+
+
+
+
+.navbarV h1{
+    text-align: center;
+    margin-top:2em;
+    background-color: white;
+   
+    
+}
+
+.menuIcon {
+    display: flex;
+    align-items: center; /* Center the icon vertically */
+    justify-content: center; /* Center the icon horizontally */
+    margin-top: 2em;
+   
+}
+
+.closeIcon{
+    position:absolute;
+    top:1em;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.ulistV{
+    display: flex;
+    flex-direction: column;
+    gap:2em;
+    margin: 0;
+    list-style: none;
+    width: 30%;
+    padding-left:2em;
+    background-color: white;
+    z-index: 1000;  
+    position: fixed; 
+    top: 0;
+    left: 0; 
+    height: 100vh; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    padding-right: 1em;
+    
+    
+}
+
+.ulistV a{
+    padding: 1.2em;
+    text-decoration: none;
+    color: black;
+    /* border-bottom:1px solid black ; */
+    
+}
+
+.ulistV li a{
+    flex:1;
+    display:block;
+}
+
+.ulistV a:hover{
+  font-weight: bold;
+  background-color: black;
+  border-radius: 25px;
+  
+  color: white;
+  box-shadow: 0 2px 3px black; /* Add shadow effect */
+
+}
+
+
+
+
+
+
+@media(max-width: 767px){
+    .navbar {
+        display:none;   
+    }
+    
+    
+}
+
+@media(max-width: 800px){
+    .navbar {
+        gap:3em;   
+        
+    }    
+}
+
+
+@media(min-width: 767px){
+    .navbarV {
+        display:none;
+    }
+    .navbar{
+        position:fixed;
+    }
+    
+}
+

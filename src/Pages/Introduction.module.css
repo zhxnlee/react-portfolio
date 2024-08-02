@@ -1,0 +1,118 @@
+.introduction{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+
+}
+
+
+
+
+
+.introSection, .imageSection{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.introSection{
+    flex-direction: column;
+    
+}
+
+
+
+.introSection p {
+    padding: 0.5rem;
+}
+
+.role{
+    padding:0.5rem;
+}
+
+.imageSection img{
+    height: 500px;
+    width: auto;
+}
+
+
+.introButtons{
+    display: flex;
+    margin: 2rem;
+    gap: 1em;
+    flex: 1;
+    
+}
+
+.introButtons button{
+    padding: 0.8rem;
+    border-radius: 25px;
+    border: white;
+    background-color: black;
+    color: white;
+    border: 0.2em black solid;
+    
+
+}
+
+
+
+
+.introButtons button:hover{
+    
+    background-color: white;
+    color: black;
+    border: 0.2em black solid;
+    font-weight:bold;
+}
+
+
+@media (max-width: 800px) {
+    .introduction {
+        /* margin-top: 5em; */
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 5em;
+        padding-top:8em;
+        
+    }
+  
+    .imageSection {
+        margin-top: auto;
+    }
+
+
+  }
+
+  @media (max-width: 767px) {
+    .introduction {
+        padding-top:2em;
+        
+    }
+  
+  
+
+
+  }
+
+  .imageSection {
+    background-color: rgba(	211, 211, 211, .7);
+    padding: 2.5em;
+    border-radius: 50%;
+    width:auto;
+    height:auto;
+    
+    
+}
+
+
+@media (min-width: 800px) {
+    .imageSection{
+        margin-right: 3em;
+    }
+        
+    }
