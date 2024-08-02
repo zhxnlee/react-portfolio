@@ -141,6 +141,7 @@
 
     .aboutme{
         height:280vh;
+        overflow-y: hidden;
     }
 
     

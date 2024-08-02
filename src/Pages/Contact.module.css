@@ -75,3 +75,21 @@
 .imageBackground{
     overflow-y: hidden;
 }
+
+
+@media (max-width: 767px) {
+    .contactLogos img{
+        margin-top: 2em;
+        height: 1.5em;
+        border-radius: 25px;
+        border: solid black;
+        padding: 1em;
+        background-color: white;
+        width: auto;
+    }
+    .contactLogos img:hover{
+        height:2.5em;
+        width: auto;
+    }
+  
+}
