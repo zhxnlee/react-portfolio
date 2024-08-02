@@ -26,9 +26,9 @@ function Navigation(){
         <>
         <div className = {styles.container} >
             <div className = {styles.navbar}>
-                <h1>ZX</h1>
+                <h1><Link activeClass = "active" smooth spy to = "home">ZX</Link></h1>
                 <ul className = {styles.ulist}>
-                    
+
                     {linkItems}
                     
                 </ul>
