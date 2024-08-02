@@ -199,6 +199,11 @@
         
     }
 
+    .imageSection img{
+        height: 250px;
+        width: auto;
+    }
+
     .skillsButton button {
         font-size: 0.7em;
    
@@ -218,5 +223,19 @@
         height:5.5em;
         width: 5.5em;
     }
+  
+}
+
+@media (max-width: 600px) {
+   
+
+  
+
+    .skillsButton button {
+        font-size: 0.55em;
+   
+    }
+
+   
   
 }

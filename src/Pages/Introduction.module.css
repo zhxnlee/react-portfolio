@@ -91,7 +91,12 @@
   @media (max-width: 767px) {
     .introduction {
         padding-top:2em;
-        
+
+    }
+
+    .imageSection img{
+        height: 300px;
+        width: auto;
     }
   
   

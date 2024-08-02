@@ -130,6 +130,11 @@
         height:230vh;
     }
 
+    .imageSection img{
+        height: 280px;
+        width: auto;
+    }
+
     
 
     
