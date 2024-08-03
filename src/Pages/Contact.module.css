@@ -9,6 +9,7 @@
  
     width: 100%;
     
+    
 }
 
 
@@ -97,5 +98,37 @@
         height:2.5em;
         width: auto;
     }
+  
+}
+
+@media (max-height: 600px) {
+    .contactMainSection{
+        padding-top:10em;
+    }
+    
+  
+}
+
+@media (max-height: 620px) {
+    .imageSection img{
+        display:none ;
+    }
+}
+@media (max-height: 500px) {
+    .contactMainSection  h1{
+        display:none;
+    } 
+}
+@media (max-height: 460px) {
+    .contactMainSection {
+        padding-top:15em;
+    } 
+
+
+
+
+
+    
+    
   
 }

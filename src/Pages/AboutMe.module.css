@@ -173,4 +173,10 @@
 
 
 
-
+@media (max-height: 600px) {
+    .aboutSection{
+        padding-bottom:2em;
+    }
+    
+  
+}
