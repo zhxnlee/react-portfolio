@@ -231,6 +231,12 @@
   
 }
 
+.fR, .sR{
+    display: flex;
+    gap:1em;
+
+}
+
 @media (max-width: 590px) {
     .fR {
         display: flex;
