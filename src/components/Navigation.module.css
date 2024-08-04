@@ -149,7 +149,7 @@
 
 
 
-@media(max-width: 767px){
+@media(max-width: 880px){
     .navbar {
         display:none;   
     }
@@ -157,7 +157,7 @@
     
 }
 
-@media(max-width: 800px){
+@media(max-width: 880px){
     .navbar {
         gap:3em;   
         
@@ -165,7 +165,7 @@
 }
 
 
-@media(min-width: 767px){
+@media(min-width: 880px){
     .navbarV {
         display:none;
     }
