@@ -9,6 +9,16 @@ import Phone_logo from "../assets/logos/Phone_logo.png"
 
 function Contact(){
 
+    const phoneNumber = "+60129502258";
+    const handleCopyToClipboard = () => {
+        navigator.clipboard.writeText(phoneNumber)
+          .then(() => {
+            console.log('Phone number copied to clipboard!');
+          })
+          .catch((error) => {
+            console.error('Failed to copy phone number:', error);
+          });
+      };
 
     const [contactDetail, setContactDetail] = useState("Please select a contact method");
 
@@ -40,7 +50,10 @@ function Contact(){
                         <a href = "https://www.linkedin.com/in/zhenxuanlee/" target="_blank"><img src = {LinkedIn_logo} onMouseEnter={() => setContactDetail("LinkedIn")} onMouseLeave = {handleMouseLeave}/></a>
                         <a href = "https://github.com/zhxnlee" target="_blank" ><img src = {Github_logo} onMouseEnter={() => setContactDetail("GitHub")} onMouseLeave = {handleMouseLeave}/></a>
                         <a href="mailto:zhenxuan25@gmail.com" target="_blank"><img src = {Gmail_logo} onMouseEnter={() => setContactDetail("Gmail")} onMouseLeave = {handleMouseLeave}/></a>
-                        <img src = {Phone_logo} onMouseEnter={() => setContactDetail("+60129502258")} onClick={()=> setContactDetail("+60129502258")}/ >
+                        <img src = {Phone_logo} onMouseEnter={() => setContactDetail("+60129502258")} onClick={()=> {
+                            setContactDetail("+60129502258")
+                            handleCopyToClipboard();
+                            }}/ >
                     </div>
 
                 </div>
