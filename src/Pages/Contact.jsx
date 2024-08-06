@@ -5,7 +5,7 @@ import call from "../assets/call.png"
 import LinkedIn_logo from "../assets/logos/LinkedIn_logo.png"
 import Github_logo from "../assets/logos/Github_logo.png"
 import Gmail_logo from "../assets/logos/Gmail_logo.png"
-
+import Phone_logo from "../assets/logos/Phone_logo.png"
 
 function Contact(){
 
@@ -40,6 +40,7 @@ function Contact(){
                         <a href = "https://www.linkedin.com/in/zhenxuanlee/" target="_blank"><img src = {LinkedIn_logo} onMouseEnter={() => setContactDetail("LinkedIn")} onMouseLeave = {handleMouseLeave}/></a>
                         <a href = "https://github.com/zhxnlee" target="_blank" ><img src = {Github_logo} onMouseEnter={() => setContactDetail("GitHub")} onMouseLeave = {handleMouseLeave}/></a>
                         <a href="mailto:zhenxuan25@gmail.com" target="_blank"><img src = {Gmail_logo} onMouseEnter={() => setContactDetail("Gmail")} onMouseLeave = {handleMouseLeave}/></a>
+                        <img src = {Phone_logo} onMouseEnter={() => setContactDetail("+60129502258")} onClick={()=> setContactDetail("+60129502258")}/ >
                     </div>
 
                 </div>
