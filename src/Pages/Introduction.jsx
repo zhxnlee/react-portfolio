@@ -6,6 +6,7 @@ import hello from "../assets/hello.png";
 import Resume from "../assets/files/LeeZhenXuan_Resume_2024.pdf";
 import {Link} from 'react-scroll';
 
+
 function Introduction(){
     return (
         <div className = {styles.introduction}>
